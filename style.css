@@ -158,6 +158,7 @@ body {
 
 .about-me-text {
   color: aliceblue;
+  font-size: 0.8em;
 }
 
 #part-one {
@@ -183,7 +184,7 @@ body {
   margin: 0 40px 0 0;
 }
 
-#cat-about-photo {
+#second-about-photo {
   margin-left: 50px;
 }
 
@@ -391,4 +392,87 @@ textarea {
   padding: 20px 10px;
   margin-top: 20px;
   border: 2px solid aliceblue;
+}
+
+/* Media queries */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-items {
+    margin: 10px;
+  }
+
+  .about-me-text,
+  h2 {
+    font-size: 1.5em;
+  }
+
+  #pic-and-name,
+  #part-one,
+  #part-two,
+  #part-three {
+    flex-direction: column;
+  }
+
+  input,
+  textarea {
+    width: 60%;
+  }
+
+  #about-me-page .about-me-text {
+    margin: 20px 0;
+  }
+
+  #about-me-page img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  #nav-bar {
+    flex-direction: column;
+  }
+
+  .nav-items {
+    margin: 10px;
+  }
+
+  #full-name,
+  #info-text {
+    text-align: center;
+    right: 0;
+    left: 0;
+  }
+
+  .about-me-text,
+  h2 {
+    font-size: 1.2em;
+  }
+
+  #pic-and-name,
+  #part-one,
+  #part-two,
+  #part-three {
+    flex-direction: column;
+  }
+
+  input,
+  textarea {
+    width: 80%;
+  }
+
+  #carousel {
+    width: 90vw;
+    height: auto;
+  }
+
+  .slide > img {
+    height: auto;
+  }
+
+  #about-me-page .about-me-text {
+    margin: 20px 0;
+  }
+
+  #about-me-page img {
+    margin-bottom: 20px;
+  }
 }
