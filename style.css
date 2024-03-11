@@ -99,6 +99,10 @@ body {
   text-align: left;
 }
 
+#jonas-bilde {
+  border-radius: 0 40px 0 40px;
+}
+
 #landing-page {
   height: 110vh;
   display: flex;
@@ -178,6 +182,7 @@ body {
 #jonas-about-photo,
 #third-about-photo {
   margin-right: 50px;
+  border-radius: 5px;
 }
 
 #part-three {
@@ -186,6 +191,7 @@ body {
 
 #second-about-photo {
   margin-left: 50px;
+  border-radius: 5px;
 }
 
 /* Section with projects */
@@ -207,6 +213,7 @@ h2 {
   padding: 1.5rem;
   position: relative;
   bottom: 4.7rem;
+  border-radius: 5px 5px 0 0;
 }
 
 .project-link {
