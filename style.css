@@ -52,7 +52,7 @@ body {
 }
 
 .active {
-  color: #eeeeee; /* Example active color */
+  color: #eeeeee;
   font-weight: bold;
 }
 
@@ -257,7 +257,7 @@ h2 {
 
 #carousel {
   width: 70vw;
-  height: 69vh;
+  height: 69vh; /* Nice */
   position: relative;
 }
 
@@ -341,7 +341,6 @@ h2 {
 
 #form {
   min-height: 100vh;
-  /* width: 100vw; */
   font-family: var(--font);
   display: flex;
   align-items: center;
@@ -405,6 +404,22 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) {
   .nav-items {
     margin: 10px;
+    flex-direction: row;
+  }
+
+  #jonas-bilde {
+    width: 70vw;
+    margin: auto;
+  }
+
+  #full-name {
+    position: relative;
+    top: 100px;
+  }
+
+  #top-text {
+    position: relative;
+    right: 20px;
   }
 
   .about-me-text,
@@ -417,11 +432,23 @@ textarea {
   #part-two,
   #part-three {
     flex-direction: column;
+    justify-content: center;
+    font-size: 1em;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  #part-two {
+    flex-direction: column-reverse;
   }
 
   input,
   textarea {
     width: 60%;
+  }
+
+  #about-me-page {
+    width: 60ch;
   }
 
   #about-me-page .about-me-text {
@@ -458,7 +485,14 @@ textarea {
   #part-one,
   #part-two,
   #part-three {
+    width: 100vw;
+    justify-content: center;
     flex-direction: column;
+    font-size: 1em;
+  }
+
+  #part-two {
+    flex-direction: column-reverse;
   }
 
   input,
@@ -468,7 +502,7 @@ textarea {
 
   #carousel {
     width: 90vw;
-    height: auto;
+    /* height: auto; */
   }
 
   .slide > img {
