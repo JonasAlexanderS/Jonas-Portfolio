@@ -469,6 +469,17 @@ textarea {
     margin: 10px;
   }
 
+  #pic-and-name {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+  }
+
+  #jonas-bilde {
+    width: 50vw;
+    /* height: auto; */
+  }
+
   #full-name,
   #info-text {
     text-align: center;
