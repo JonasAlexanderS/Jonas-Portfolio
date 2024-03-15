@@ -69,7 +69,6 @@ body {
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
   justify-content: center;
-  /*border: 1px solid red;*/
 }
 
 #gh-logo {
@@ -466,8 +465,39 @@ textarea {
   }
 
   .nav-items {
-    margin: 10px;
+    margin: 5px;
     font-size: 0.5em;
+  }
+
+  #gh-cv-container {
+    z-index: 2;
+    width: 40px;
+    height: 50px;
+  }
+
+  #gh-cv-container img {
+    width: 10px;
+    margin-right: auto;
+  }
+
+  #landing-page {
+    margin: 40%;
+  }
+
+  #full-name h1 {
+    font-size: 1em;
+  }
+
+  #info-text {
+    margin: 100px;
+  }
+
+  #info-text p {
+    font-size: 1rem;
+  }
+
+  #triangle-icon {
+    display: none;
   }
 
   #pic-and-name {
@@ -503,8 +533,29 @@ textarea {
     font-size: 1em;
   }
 
+  #part-one {
+    text-align: center;
+  }
+
+  #jonas-about-photo {
+    margin: auto;
+  }
+
   #part-two {
     flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #second-about-photo {
+    margin: auto;
+  }
+
+  #part-three {
+    text-align: center;
+  }
+
+  #third-about-photo {
+    margin: auto;
   }
 
   input,
@@ -517,6 +568,15 @@ textarea {
     /* height: auto; */
   }
 
+  .carousel-button {
+    margin-top: 20px;
+  }
+
+  .carousel-text {
+    margin-top: 1px;
+    font-size: 0.76em;
+  }
+
   .slide > img {
     height: auto;
   }
@@ -525,7 +585,7 @@ textarea {
     margin: 20px 0;
   }
 
-  #about-me-page img {
-    margin-bottom: 20px;
+  .project-link {
+    margin-top: 80px;
   }
 }
