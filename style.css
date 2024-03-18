@@ -14,7 +14,7 @@ body {
   width: 100%;
   background: linear-gradient(135deg, #241e19 0%, #2b4162 100%);
   background-attachment: fixed;
-  z-index: -3;
+  z-index: -100;
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -22,7 +22,8 @@ body {
 }
 
 main {
-  max-width: 1400px;
+  max-width: 1200px;
+  z-index: -100;
 }
 
 header {
@@ -243,7 +244,6 @@ h2 {
 .project-link img {
   margin-left: 20px;
   z-index: 1000;
-  /* cursor: pointer; */
 }
 
 .project-link a {
@@ -256,7 +256,6 @@ h2 {
 .page-link img {
   margin-left: 20px;
   z-index: 1000;
-  /* cursor: pointer; */
 }
 
 .page-link a {
@@ -293,6 +292,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  user-select: none;
 }
 
 .slide > img {

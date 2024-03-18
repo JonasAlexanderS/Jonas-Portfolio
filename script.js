@@ -2,6 +2,7 @@
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-links"); // Changed to target .nav-links
 const buttons = document.querySelectorAll("[data-carousel-button]");
+let jonasAge = document.getElementById("age");
 
 // Adds active class to the section you are on
 navLinks[0].classList.add("active");
@@ -25,6 +26,29 @@ window.addEventListener("scroll", () => {
   });
 });
 
+// Function to change my age
+
+function calculateAge(birthDate) {
+  const currentDate = new Date();
+  const birth = new Date(birthDate);
+  let age = currentDate.getFullYear() - birth.getFullYear();
+  const monthDiff = currentDate.getMonth() - birth.getMonth();
+  if (
+    monthDiff < 0 ||
+    (monthDiff === 0 && currentDate.getDate() < birth.getDate())
+  ) {
+    age--;
+  }
+  return age;
+}
+
+function showAge() {
+  const myAge = calculateAge("1999-02-13");
+  jonasAge.textContent = myAge;
+}
+
+showAge();
+
 // Picture carousel
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -40,5 +64,6 @@ buttons.forEach((button) => {
 
     slides.children[newIndex].dataset.active = true;
     delete activeSlide.dataset.active;
+    console.log("muthafucka");
   });
 });
