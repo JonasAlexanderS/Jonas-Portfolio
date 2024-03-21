@@ -409,19 +409,24 @@ textarea {
     flex-direction: row;
   }
 
+  #gh-cv-container {
+    position: fixed;
+    bottom: 200px;
+    height: 200px;
+    justify-content: space-around;
+  }
+
   #jonas-bilde {
-    width: 70vw;
+    width: 30vw;
     margin: auto;
   }
 
   #full-name {
-    position: relative;
-    top: 100px;
+    font-size: 1rem;
   }
 
-  #top-text {
-    position: relative;
-    right: 20px;
+  #info-text {
+    font-size: 1.3rem;
   }
 
   .about-me-text,
@@ -464,7 +469,8 @@ textarea {
 
 @media (max-width: 767px) {
   #nav-bar {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .nav-items {
@@ -481,10 +487,6 @@ textarea {
   #gh-cv-container img {
     width: 10px;
     margin-right: auto;
-  }
-
-  #landing-page {
-    margin-top: 100px;
   }
 
   #full-name h1 {
@@ -510,7 +512,7 @@ textarea {
   }
 
   #jonas-bilde {
-    width: 50vw;
+    width: 70%;
   }
 
   #full-name,
@@ -523,6 +525,11 @@ textarea {
   .about-me-text,
   h2 {
     font-size: 1.2em;
+    margin: auto;
+  }
+
+  .about-me-text {
+    text-align: left;
   }
 
   #pic-and-name,
@@ -533,6 +540,7 @@ textarea {
     justify-content: center;
     flex-direction: column;
     font-size: 1em;
+    margin: auto;
   }
 
   #part-one {
@@ -552,7 +560,7 @@ textarea {
     margin: auto;
   }
 
-  #part-three {
+  #about-me-text {
     text-align: center;
   }
 
@@ -567,7 +575,6 @@ textarea {
 
   #carousel {
     width: 90vw;
-    /* height: auto; */
   }
 
   .carousel-button {
