@@ -1,0 +1,65 @@
+#landing-page {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    align-items: center;
+    justify-content: center;
+}
+
+#full-name {
+    position: relative;
+    right: 205px;
+    top: 40px;
+}
+
+#first-name,
+#middle-name,
+#last-name {
+    font-size: 3em;
+    color: aliceblue;
+    text-align: left;
+}
+
+#jonas-bilde {
+    border-radius: 0 40px 0 40px;
+}
+
+#pic-and-name {
+    display: flex;
+}
+
+#info-text {
+    font-size: 3em;
+    text-align: left;
+    color: aliceblue;
+    position: relative;
+    left: 265px;
+    bottom: 122px;
+}
+
+#top-text {
+    margin-bottom: 20px;
+}
+
+#triangle-icon {
+    margin-top: 25px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    user-select: none;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}

@@ -1,0 +1,40 @@
+#about-me-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-me-text {
+    color: aliceblue;
+    font-size: 0.8em;
+}
+
+#part-one {
+    margin-top: 80px;
+}
+
+#part-one,
+#part-two,
+#part-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+    font-size: 2em;
+}
+
+#jonas-about-photo,
+#third-about-photo {
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+#part-three {
+    margin: 0 40px 0 0;
+}
+
+#second-about-photo {
+    margin-left: 50px;
+    border-radius: 5px;
+}
