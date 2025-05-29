@@ -1,5 +1,8 @@
 :root {
     --font: "Ubuntu", sans-serif;
+    --primary-color: aliceblue;
+    --font-size-lg: 1.5em;
+    --border-radius: 8px;
 }
 
 * {

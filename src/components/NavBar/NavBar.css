@@ -36,6 +36,6 @@ header {
 }
 
 .active {
-    color: #eeeeee;
+    color: var(--primary-color);
     font-weight: bold;
 }

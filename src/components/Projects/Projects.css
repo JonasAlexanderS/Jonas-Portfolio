@@ -8,7 +8,7 @@
 
 h2 {
     font-family: var(--font);
-    color: aliceblue;
+    color: var(--primary-color);
     text-align: center;
     background-color: rgba(10, 10, 10, 0.9);
     padding: 1.5rem;
@@ -19,7 +19,7 @@ h2 {
 
 .project-link {
     font-family: var(--font);
-    color: aliceblue;
+    color: var(--primary-color);
     text-align: center;
     width: fit-content;
     position: relative;
@@ -38,7 +38,7 @@ h2 {
     height: fit-content;
     align-items: center;
     text-decoration: none;
-    color: aliceblue;
+    color: var(--primary-color);
 }
 
 #carousel {
@@ -75,7 +75,7 @@ h2 {
     max-height: 575px;
     object-fit: cover;
     object-position: top;
-    border-radius: 7px;
+    border-radius: var(--border-radius);
 }
 
 .slide[data-active] {
@@ -90,7 +90,7 @@ h2 {
     background: none;
     border: none;
     font-size: 4rem;
-    color: aliceblue;
+    color: var(--primary-color);
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
@@ -102,7 +102,7 @@ h2 {
 }
 
 .carousel-button:hover {
-    color: white;
+    color: var(--primary-color);
     background-color: rgba(0, 0, 0, 0.9);
 }
 

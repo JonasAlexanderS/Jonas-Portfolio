@@ -8,7 +8,7 @@
 }
 
 #send-text {
-    color: aliceblue;
+    color: var(--primary-color);
     margin-bottom: 20px;
 }
 
@@ -18,7 +18,7 @@ input {
     padding: 5px 10px;
     margin-top: 10px;
     font-size: 1.5em;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     border: none;
 }
 
@@ -29,7 +29,7 @@ textarea {
     font-family: var(--font);
     margin: 10px;
     font-size: 1.5em;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     border: none;
 }
 
@@ -37,11 +37,11 @@ textarea {
     margin-top: 10px;
     font-family: var(--font);
     padding: 10px 20px;
-    background-color: aliceblue;
+    background-color: var(--primary-color);
     color: #241e19;
     font-size: 1.2em;
     border: none;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     cursor: pointer;
 }
 

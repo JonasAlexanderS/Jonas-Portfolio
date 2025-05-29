@@ -17,7 +17,7 @@
 #middle-name,
 #last-name {
     font-size: 3em;
-    color: aliceblue;
+    color: var(--primary-color);
     text-align: left;
 }
 
@@ -32,7 +32,7 @@
 #info-text {
     font-size: 3em;
     text-align: left;
-    color: aliceblue;
+    color: var(--primary-color);
     position: relative;
     left: 265px;
     bottom: 122px;
